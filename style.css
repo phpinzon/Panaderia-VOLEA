@@ -11,6 +11,11 @@
   --maxw: 1200px;
 }
 
+/* Activa las transiciones entre páginas */
+@view-transition {
+  navigation: auto;
+}
+
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
